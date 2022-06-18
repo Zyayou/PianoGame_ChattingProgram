@@ -91,9 +91,14 @@ mfc로 채팅 서버를 구축하고 그와 함께 mfc를 실제 활용하여 �
 
 ###  2) 통신 프로토콜 및 ....
 <img src="https://user-images.githubusercontent.com/100979640/174439041-820728c4-5355-4959-bfb5-936fd71de17e.jpg" width="55%"><img src="https://user-images.githubusercontent.com/100979640/174439214-282b65ba-e1e0-4a59-9c0a-2f50c0729c4a.jpg" width="45%"/>
-채팅을 구성    
-<img width="85%" src="https://user-images.githubusercontent.com/100979640/174439272-bf3ba320-3130-4f10-a4d4-ffb0b90c7be7.jpg">
-
+   
+채팅은 TCP/IP 소켓 통신을 이용한 프로그램으로, TCP 프로토콜을 사용하며 연결 설정, 데이터 송수신 연결 해제의 단계를 거친다.   
+그 외에도 추가적으로 닉네임시스템과 입력창, 보내기 버튼, 게임 버튼, 종료 버튼을 설계한 것이 오른쪽 순서도이다.   
+   
+<img width="85%" src="https://user-images.githubusercontent.com/100979640/174439272-bf3ba320-3130-4f10-a4d4-ffb0b90c7be7.jpg"/>
+   
+피아노 타일의 순서도에는 게임이 돌아가는 시간과 함께 아두이노에서 받아온 입력 OnReceive()와 게임과 상호작용하는 OnEnChangeEdit(), 마우스 L버튼에서 받아온 입력과 게임과 상호작용하는 OnLButtonDown(), 외 여러가지 작동하는 버튼에 대한 설계가 있다.
+   
 ## 7. 프로젝트 VLOG 
 <img width="928" alt="image" src="https://user-images.githubusercontent.com/107747365/174438735-2af5ce9e-ebf1-4f99-8477-f12f0b4d5682.png">
 Go link : https://www.youtube.com/watch?v=zHo7p1yJdH4 
