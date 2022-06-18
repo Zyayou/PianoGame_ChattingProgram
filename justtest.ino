@@ -1,13 +1,6 @@
-
-
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-
-//#define trig D3
-//#define echo D4
-//#define nservo D5
-// -------------------------------------------- 위의 헤더 파일 우노에 맞게 수정 
 #define BTN1 D2
 #define BTN2 D3
 #define BTN3 D4
@@ -17,18 +10,12 @@
 #define LED3 D11
 #define LED4 D12
 
-// 핀번호 우노에 맞게 수정 
 // Update these with values suitable for your network.
 
-//const char* ssid = "seozero";
-//const char* password = "zero4443";
-
-const char* ssid = "410-컴공 free 2G";
-const char* password = "0548205480";
-
+const char* ssid = "********";
+const char* password = "*******";
 
 const char* mqtt_server = "broker.mqtt-dashboard.com";
-
 
 WiFiClient espClient;
 PubSubClient client(espClient);
@@ -38,7 +25,6 @@ char msg[MSG_BUFFER_SIZE];
 int value = 0;
 
 void setup_wifi() {
-
   delay(10);
   // We start by connecting to a WiFi network
   Serial.println();
@@ -65,22 +51,18 @@ void callback(char* topic, byte* payload, unsigned int length) {
   Serial.print("Message arrived [");
   Serial.print(topic);
   Serial.print("] ");
-  //byte array를 string으로 바꿨다!
+  //byte array를 string으로 변경
   
   String data;
   for (int i = 0; i < length; i++) {
     Serial.print((char)payload[i]);
    data+=(char)payload[i];
   }
-  //int degree = data.toInt();
-  //int btn_mode = data.toInt();
+  
   int tile1 = data.toInt();
   int tile2 = data.toInt();
   int tile3 = data.toInt();
   int tile4 = data.toInt();
-
-  
-
 }
 
 void reconnect() {
@@ -96,7 +78,6 @@ void reconnect() {
       // Once connected, publish an announcement...
       client.publish("outTopic", "hello world");
       // ... and resubscribe
-      client.subscribe("seoyeong/servo");
       client.subscribe("seoyeong/buttons");
     } else {
       Serial.print("failed, rc=");
@@ -107,8 +88,6 @@ void reconnect() {
     }
   }
 }
-// ------------------------------------------------------------------------필요 없음 위까지 
-
 
 void setup() {
   pinMode(BUILTIN_LED, OUTPUT);     // Initialize the BUILTIN_LED pin as an output
@@ -131,7 +110,7 @@ void setup() {
 void loop() {
   
   int arduino2 = 0;
-
+  
   if (!client.connected()) {
     reconnect();
   }
@@ -171,7 +150,6 @@ void loop() {
   {
     digitalWrite(LED4, HIGH);
     Serial.println(arduino2+35);
-    //Serial.write(arduino2+35);
   }
   else
   {
