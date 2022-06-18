@@ -90,7 +90,9 @@ mfc로 채팅 서버를 구축하고 그와 함께 mfc를 실제 활용하여 �
 이로써 MFC 를 활용한 통신이 가능한 GUI 응용프로그램을 제작해 보았다. 추후에는 보다 더 나은 GUI 응용프로그램에 통신을 접목한 방식은 많은 활용도를 기대할 수 있을 것이다.
 
 ###  2) 통신 프로토콜 및 ....
-<img src="https://user-images.githubusercontent.com/100979640/174439041-820728c4-5355-4959-bfb5-936fd71de17e.jpg" width="30%"><img src="https://user-images.githubusercontent.com/100979640/174439214-282b65ba-e1e0-4a59-9c0a-2f50c0729c4a.jpg" width="30%"><img src="https://user-images.githubusercontent.com/100979640/174439272-bf3ba320-3130-4f10-a4d4-ffb0b90c7be7.jpg3" width="30%">
+<img src="https://user-images.githubusercontent.com/100979640/174439041-820728c4-5355-4959-bfb5-936fd71de17e.jpg" width="55%"><img src="https://user-images.githubusercontent.com/100979640/174439214-282b65ba-e1e0-4a59-9c0a-2f50c0729c4a.jpg" width="45%"/>
+채팅을 구성    
+<img width="85%" src="https://user-images.githubusercontent.com/100979640/174439272-bf3ba320-3130-4f10-a4d4-ffb0b90c7be7.jpg">
 
 ## 7. 프로젝트 VLOG 
 <img width="928" alt="image" src="https://user-images.githubusercontent.com/107747365/174438735-2af5ce9e-ebf1-4f99-8477-f12f0b4d5682.png">
