@@ -24,7 +24,7 @@ mfc로 채팅 서버를 구축하고 그와 함께 mfc를 실제 활용하여 �
 ###  3) 과제 선택 동기
 여러 가지 프로젝트를 선정하여 그 중 피아노타일과 채팅 기능 둘 다 좋아보여서 결국 합의점을 맞추어 두 프로젝트를 합치게 되었다. 추후 하드웨어와 함께 게임을 제어수 있는 수단을 만들 예정이다.
 
-## 3. 과제 목표 및 내용
+## 3. 과제 초기 목표 및 내용
 ###  1) 정량적/정성적 목표
 * 채팅의 기능을 갖춘 mfc 인터페이스를 만들 수 있다.
   - 채팅을 구현할 수 있는가
@@ -53,9 +53,9 @@ mfc로 채팅 서버를 구축하고 그와 함께 mfc를 실제 활용하여 �
   - MFC에서 시리얼 통신이 가능한가
   - MFC의 동작을 아두이노를 통해서 제어 및 통신이 가능한가 
 
-###  2) 과제의 내용  
+###  2) 초기 GUI 설계   
 ![example_image](https://user-images.githubusercontent.com/74223597/169843882-6fdd8890-368c-40a9-924c-fedf4ad7448f.png)  
-두가지의 인터페이스를 가지며 내용은 위와 같다.
+두 가지의 인터페이스를 가지며 내용은 위와 같다.
 
 ## 4. 결과물
 ###  1) 예상 결과물
@@ -89,8 +89,14 @@ mfc로 채팅 서버를 구축하고 그와 함께 mfc를 실제 활용하여 �
 이렇게 피아노 타일 게임을 이용해 유저들에게 즐거움과 긍정적인 효과를 줄 수 있다. 
 이로써 MFC 를 활용한 통신이 가능한 GUI 응용프로그램을 제작해 보았다. 추후에는 보다 더 나은 GUI 응용프로그램에 통신을 접목한 방식은 많은 활용도를 기대할 수 있을 것이다.
 
+## 7. 프로젝트 VLOG 
+<img width="928" alt="image" src="https://user-images.githubusercontent.com/107747365/174438735-2af5ce9e-ebf1-4f99-8477-f12f0b4d5682.png">
 
-## 7. 참고문헌 및 자료
+https://www.youtube.com/watch?v=zHo7p1yJdH4 
+본 영상을 통해서 팀원들과의 모습 및 개발 동기 및 구현 결과물을 짧게 영상으로 담아 보았다. 
+
+
+## 8. 참고문헌 및 자료
 [1]Creating a Piano Tile Game(2016). https://blog.naver.com/tipsware/220864652253 (accessed May 23, 2022).
    
 [2]Creating a Socket Communication Chat client program(2018). https://zadd.tistory.com/32 (accessed May 23, 2022).   
